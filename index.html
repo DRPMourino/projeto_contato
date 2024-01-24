@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+    <header>
+                <img src="imagens/telefone.png" alt="telefone">
+            <h1>Lista de Contatos</h1>
+    </header>
+    <form id="list-contact">
+        <input type="text" id="contato" required placeholder="Nome do contato">
+        <input type="number" id="Número" placeholder="Número de contato" >
+        <button type="submit">Adicionar +</button>
+    </form>
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th>Lista de Contatos</th>
+                <th>Número de contato</th>
+            </tr>
+        </thead>
+        <tbody><!-- O corpo da tabela onde as linhas serão adicionadas --></tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
